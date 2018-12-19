@@ -1,6 +1,8 @@
 import azure.cognitiveservices.speech as speechsdk
 from subscription_key import speech_key 
 
+assert speech_key
+
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region="eastasia")
 
 speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config)
