@@ -9,14 +9,16 @@ assert subscription_key
 text_analytics_base_url = "https://eastasia.api.cognitive.microsoft.com/text/analytics/v2.0/"
 
 sentiment_api_url = text_analytics_base_url + "sentiment"
-print(sentiment_api_url)
+# print(sentiment_api_url)
+
+sentMsg = input()
 
 documents = {
     'documents': [
         {
             'id': '1',
             'language': 'en',
-            'text': 'I had a wonderful experience! The rooms were wonderful and the staff was helpful.'
+            'text': sentMsg
         }
     ]
 }

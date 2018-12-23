@@ -1,5 +1,5 @@
 import azure.cognitiveservices.speech as speechsdk
-from subscription_key import speech_key 
+from subscription_key import speech_key
 
 assert speech_key
 
