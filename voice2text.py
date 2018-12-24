@@ -24,7 +24,7 @@ def recoged(e):
     global dots,ans
     print("[Finished Sentence] " + e.result.text)
     dots=1
-    ans+=e.result.text
+    ans+=e.result.text.strip()+" "
 
 def session_started_func(e):
     print("Session started event.")
