@@ -5,7 +5,7 @@ from colorama import Fore, Back, Style
 from subscription_key import text_analytics_key
 import azure.cognitiveservices.speech as speechsdk
 import time 
-import MySQLdb
+import pymysql
 from subscription_key import speech_key
 
 # Speech2Text
