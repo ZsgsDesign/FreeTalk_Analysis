@@ -92,3 +92,5 @@ print("[Emotion: {score:.2f}]".format(score=sentiment_score))
 
 for key_item in keyphrases_array:
     print(key_item)
+
+db = pymysql.connect("localhost","root","root","freetalk")
